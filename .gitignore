@@ -1,0 +1,15 @@
+# Folders
+.idea
+_Resources
+old
+
+# Files
+covid-19-notifier/credentials.txt
+covid-19-notifier/Icon\r
+covid-19-notifier/client_secret.json
+
+Icon
+"Icon\r"
+client_secret.json
+credentials.txt
+google-spreadsheet-tests.py
