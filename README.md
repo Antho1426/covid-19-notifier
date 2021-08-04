@@ -2,7 +2,11 @@
 Python app using the Twilio Python API for WhatsApp, the `requests` package for
 Telegram and the Heroku Python script hosting solution to send WhatsApp and
 Telegram messages once a new article related to COVID-19 is published on the
-(State of Vaud website)[https://www.vd.ch].
+[State of Vaud website](https://www.vd.ch).
+
+<p align="center">
+	<img src="covid-19-notifier.gif" alt="color_isolation_gif" style="width: 640px;"/>
+</p>
 
 ## Table of contents
 * [1. Description](#1-description)
@@ -19,14 +23,18 @@ Telegram messages once a new article related to COVID-19 is published on the
 makes use of the `selenium` Python package to scrape the web and check every 12
 hours if a new article related to COVID-19 has been published on the State of
 Vaud website. If a new article concerning COVID-19 has effectively been
-published, a COVID-19 recap WhatsApp and Telegram message is sent to my phone
-(+41 79 884 18 17). The message contains some info about the number of new cases
-and deaths due to COVID-19 in Switzerland and the web links to the [Canton of Vaud website](https://www.vd.ch)
+published, a COVID-19 recap WhatsApp and Telegram message is sent to my phone.
+The message contains some info about the number of new cases and deaths due to
+COVID-19 in Switzerland and the web links to the [Canton of Vaud website](https://www.vd.ch)
 and the [COVID-19 news for Switzerland](https://www.coronatracker.com/fr/country/switzerland).
 To be sure to properly back up important info and COVID-19 statistics, the
 program consults and updates the dedicated ["covid 19 notifier spreadsheet"](https://docs.google.com/spreadsheets/d/1FgfodftPV7pf9eSDPWmRXHDFBFH1GCjzj7s7fBFll7E/edit#gid=0)
 Google spreadsheet (situated on my Google Drive in My Drive > Programmation >
-Real-TimeNotificationsForCOVID-19Cases).
+Real-TimeNotificationsForCOVID-19Cases):
+
+<p align="center">
+  <img src="2021-07-08 at 09.39.48_covid 19 notifier spreadsheet.png" width="900">
+</p>
 
 Here are other interesting websites regarding the current COVID-19 situation in the
 State of Vaud:
@@ -50,7 +58,7 @@ following Terminal command at the root of the project:
 
 To deploy the `covid-19-notifier` Python web app on the Heroku web server,
 please refer to the instructions in the `_ApproachToHostOnHeroku.rtfd` file
-situated in the `_Resources` folder.
+situated in the `_Resources` folder or feel free to contact me with questions.
 
 
 ### 2.3 Executing program
